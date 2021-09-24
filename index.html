@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script defer type="text/javascript" src="qrcode.js"></script>
+</head>
+<body>
+    <header>
+        <h1>QR Code Generator </h1>
+    </header>
+    <body>
+        <section>
+            <form>
+                <label for="name"> Attendee Name </label>
+                <input type="text" name="name" id="name" class="inputs">
+                <label for="email">Email address</label>
+                <input type="text" name="email" id="email" class="inputs">
+                <label for="Twitter Account">Twitter</label>
+                <input type="text" name="twitter" id="twitter" class="inputs">
+                <label for="Github Account">Github</label>
+                <input type="text" name = "Github" id="github" class="inputs">
+                <button type = "button" id="cancel">Cancel</button>
+                <button type = "button" id="create">Create</button>
+            </form>
+        </section>
+        <section>
+            <div>
+                <p>Name: <span id="badgeName"></span></p>
+                <p>Email: <span id="badgeEmail"></span></p>
+                <p>Twitter: <span id="badgeTwitter"></span></p>
+                <p>Github: <span id="badgeGithub"></span></p>
+            </div>
+        </section>
+        <section>
+            <div id="placeHolder"></div>
+        </section>
+    </body>
+</body>
+</html>
