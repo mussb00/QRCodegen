@@ -1,0 +1,8 @@
+POST http://localhost:3000/scan
+Content-Type: application/json
+
+{
+    "name": "hello", 
+    "email": "muss@oo.com"
+}
+
